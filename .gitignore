@@ -1,2 +1,6 @@
 .idea
 .gitignore
+target/
+*.exe
+*.pdb
+Cargo.lock
