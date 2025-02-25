@@ -11,9 +11,43 @@
 — 布尔类型
 — 字符类型
 
+tuple 元组 固定长度 包含不同类型的元素
+array 数组 固定长度 元素类型相同
+
  */
 fn main() {
-    let guess: u32 = "42".parse().expect("Not a number!");
-    println!("guess: {}", guess);
+    let num_a=45;
+    let num_b:u32=46;
+    let num_c:u8=255;
+    let num_d:usize=46;
+    let num_e=0xff;
+    let num_f:u8=b'A';
+    
+    let x=2.0;
+    let y:f32=4.0;
+    
+    let t=true;
+    let f:bool=false;
+    
+    let c='z';
+    let z='A';
+    let chinese='我';
+    let emoji='1';
+    
+    let tup=(100,'a',false);
+    let tup:(i32,f64,u8)=(500,6.5,1);
+    let (x,y,z) = tup;
+    println!("x:{},y:{},z:{}",x,y,z);
+    
+    let arr=[1,2,3,4,5,6,7,8,9,10,11];
+    let b:[i32;5]=[1,2,3,4,5];
+    let c=[3;5];
+    println!("arr[0]:{}",arr[0]);
+    
+    
+    
+
+
+
 
 }
