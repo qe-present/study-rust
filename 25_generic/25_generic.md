@@ -20,3 +20,8 @@
 14. 返回实现特性的类型：`fn returns_summarizable() -> impl Summary { ... }`
 15. 使用特性约束有条件地实现方法：`impl<T: Display + PartialOrd> Pair<T> { ... }`
 16. 生命周期泛型确保引用有效性：`fn longest<'a>(x: &'a str, y: &'a str) -> &'a str { ... }` 
+
+---
+
+| [上一页：错误处理](../24_error/24_error.md) | [下一页：特性](../26_trait/26_trait.md) |
+|------------------------|------------------------| 

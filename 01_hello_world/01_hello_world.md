@@ -11,3 +11,8 @@ Rust入门：Hello World程序。
 5. Rust语句以分号(`;`)结尾
 6. 编译Rust程序使用`rustc`命令（如：`rustc main.rs`）
 7. Rust是一种提前编译(AOT)的语言，编译后生成可执行文件
+
+---
+
+| 上一页 | [下一页：Hello Cargo](../02_hello_cargo/02_hello_cargo.md) |
+|------------|------------------------|

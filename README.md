@@ -30,3 +30,4 @@ Rust语言学习笔记
 24. [哈希映射](23_hashMap/23_hashMap.md) - 哈希映射相关学习笔记
 25. [错误处理](24_error/24_error.md) - 错误处理相关学习笔记
 26. [泛型](25_generic/25_generic.md) - 泛型相关学习笔记
+27. [特性](26_trait/26_trait.md) - 特性(Trait)相关学习笔记
