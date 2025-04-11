@@ -1,0 +1,9 @@
+[package]
+name = "use_cargo_test"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "use_test"
+path = "src/lib.rs"
+
