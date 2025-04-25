@@ -4,6 +4,8 @@ Trait的定义 将不同的方法签名组成到一个方法签名中
  */
 // 定义一个trait
 
+use std::fmt::{Display};
+
 pub trait Summary {
     fn summarize(&self) -> String;
 }
@@ -59,3 +61,8 @@ fn main() {
     println!("新闻摘要: {}", article.summarize());
     println!("推文摘要: {}", tweet.summarize());
 } 
+
+fn f<T:Display+Clone>(t:&T){
+    let t2=t.clone();
+    println!("{t2}");
+}

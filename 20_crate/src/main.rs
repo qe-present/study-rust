@@ -4,7 +4,7 @@ binary crate:可执行的，需要有main函数
 library crate:没有main函数,无法执行。定义一些功能，可共享使用
 
 crate root
-binary crate :src/main.rs
+binary crate :src/lib
 library crate: src/lib.rs
 
 package 由1个或多个crates组成

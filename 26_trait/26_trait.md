@@ -134,6 +134,29 @@ impl fmt::Display for Wrapper {
 }
 ```
 
+## 学习总结
+
+1. **特性(Trait)是Rust中实现多态的主要方式**，允许不同类型共享相同的行为
+2. **特性定义使用`trait`关键字**：`trait Summary { fn summarize(&self) -> String; }`
+3. **为类型实现特性使用`impl Trait for Type`语法**：`impl Summary for NewsArticle { ... }`
+4. **特性可以有默认实现**，实现该特性的类型可以选择使用或覆盖默认实现
+5. **特性作为函数参数**可以接收任何实现了该特性的类型：`fn print_summary(item: impl Summary)`
+6. **特性约束**使用泛型更加明确：`fn print_summary<T: Summary>(item: T)`
+7. **多重特性约束**通过`+`组合：`fn notify<T: Summary + Display>(item: T)`
+8. **`where`子句**可以简化复杂的特性约束：`fn notify<T>(item: T) where T: Summary + Display`
+9. **返回实现特性的类型**：`fn returns_summarizable() -> impl Summary`
+10. **特性对象**允许动态分发：`Box<dyn Summary>`或`&dyn Summary`
+11. **dyn Trait**用于运行时确定具体类型，实现运行时多态
+12. **孤儿规则**：只能为当前crate中的类型实现当前crate中的特性
+13. **关联类型**在特性中定义占位符类型：`trait Iterator { type Item; }`
+14. **运算符重载**通过实现标准库中的特性实现：`impl Add for Point { ... }`
+15. **特性边界**可以限制泛型类型必须实现特定特性
+16. **supertrait**要求实现某特性必须先实现另一特性：`trait Printable: Display { ... }`
+17. **特性可以作为标记**，表明类型具有某种属性或行为
+18. **newtype模式**可以绕过孤儿规则，为外部类型实现外部特性
+19. **特性是类型安全的**，编译器会在编译时检查类型是否正确实现了所需特性
+20. **特性是Rust类型系统的核心部分**，广泛用于标准库和第三方库中
+
 ---
 
 | [上一页：泛型](../25_generic/25_generic.md) | 下一页 |
