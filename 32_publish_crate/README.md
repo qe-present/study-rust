@@ -7,3 +7,7 @@ cargo new --lib my_crate
 ```shell
 cargo publish
 ```
+# 3 弃用 crate
+```shell
+cargo yank --vers 0.1.0
+```
