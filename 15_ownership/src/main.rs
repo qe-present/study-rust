@@ -57,7 +57,7 @@ fn  test_6(){
 
 
 
-// use std::rc::Rc;
+// use std::rc::37_Rc;
 fn main() {
     test_6()
 }
@@ -73,9 +73,9 @@ fn main() {
 // fn return_a_string3() -> &'static str {
 //     "world"
 // }
-// fn return_a_string4() -> Rc<String> {
-//     let s=Rc::new(String::from("world"));
-//     Rc::clone(&s)
+// fn return_a_string4() -> 37_Rc<String> {
+//     let s=37_Rc::new(String::from("world"));
+//     37_Rc::clone(&s)
 // }
 // fn return_a_string5(output:&mut String) {
 //     output.replace_range(..,"hello world");// 从0开始，到最后一个字符

@@ -1,0 +1,3 @@
+[package]
+name = "deref_trait"
+edition = "2024"

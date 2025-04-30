@@ -4,7 +4,6 @@ BOX智能指针，
 比如 Box、Rc、Ref、RefMut、RefCell
 Box特点
 允许将数据存储在Heap上
- 
  */
 enum List{
     Cons(i32, Box<List>),
