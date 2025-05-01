@@ -16,5 +16,5 @@
 
 ---
 
-| [上一页：所有权](../11_ownership/11_ownership.md) | [下一页：所有权](../13_ownership/13_ownership.md) |
+| [上一页：所有权(11)](../11_ownership/11_ownership.md) | [下一页：所有权(13)](../13_ownership/13_ownership.md) |
 |------------------------|------------------------| 
