@@ -33,7 +33,7 @@ mod test {
     fn question_2(){
         let n=Rc::new(1);
         let mut n2=Rc::clone(&n);
-        *n2+=1;
+        // *n2+=1;因为 Rc<T> 是不可变的智能指针，无法直接修改其内部数据。
         println!("{}",n);
     }
 }
