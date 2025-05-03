@@ -37,7 +37,8 @@ fn use_refcell(){
 ///   }
 ///  println!("{}",data.borrow());
 /// }
-/// 
+/// borrow_mut 返回一个可变引用，->RefMut<T>
+/// borrow 返回一个不可变引用，->Ref<T>
 #[cfg(test)]
 mod test {
     use super::*;
