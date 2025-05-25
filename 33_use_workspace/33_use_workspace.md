@@ -88,7 +88,7 @@ pub fn add_two(x: i32) -> i32 {
     add_one(x) + 1
 }
 
-// app/src/main.rs
+// app/src/lib
 use crate1::add_one;
 use crate2::add_two;
 

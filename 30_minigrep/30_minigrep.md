@@ -31,7 +31,7 @@ minigrep/
 ## 代码示例
 
 ```rust
-// src/main.rs
+// src/lib
 use std::env;
 use std::process;
 use minigrep::Config;
