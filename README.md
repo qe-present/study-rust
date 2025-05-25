@@ -43,3 +43,10 @@ Rust语言学习笔记
 37. [Drop特性](36_drop_trait/36_drop_trait.md) - Drop特性相关学习笔记
 38. [引用计数](37_Rc/37_Rc.md) - Rc引用计数相关学习笔记
 39. [RefCell](38_Refcell/38_Refcell.md) - RefCell相关学习笔记
+
+
+# 自动提交代码
+```shell
+./commit.cmd
+```
+
