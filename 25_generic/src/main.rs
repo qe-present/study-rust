@@ -13,7 +13,7 @@ fn largest<T: PartialOrd + Copy>(list: &[T]) -> T {
     largest
 }
 
-fn main.rs() {
+fn lib() {
     let number_list = vec![34, 50, 25, 100, 65];
     let result = largest(&number_list);
     println!("最大的数字是 {}", result);

@@ -18,7 +18,7 @@ enum Result<T,E>{
 use std::fs::File;
 use std::io::ErrorKind;
 
-fn main.rs() {
+fn lib() {
     let result = File::open("./hello.txt");
     let files = match result {
         Ok(file) => file,

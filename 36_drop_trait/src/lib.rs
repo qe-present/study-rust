@@ -12,7 +12,7 @@
 ///        println!("Point {} is dropped",self.data);
 ///     }
 /// }
-/// fn main.rs() {
+/// fn lib() {
 ///     let p=Point{data:1};
 ///      let p1=Point{data:2};
 ///     println!("{:?}",p);
@@ -36,7 +36,7 @@ struct Point{
 /// drop是在prelude中定义的
 /// # Example
 /// ```rust
-/// fn main.rs() {
+/// fn lib() {
 ///     let p=Point{data:1};
 ///      let p1=Point{data:2};
 ///      drop(p);

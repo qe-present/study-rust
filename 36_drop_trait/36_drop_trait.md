@@ -55,7 +55,7 @@ fn main() {
     println!("CustomSmartPointer created.");
     // 提前释放c
     drop(c);
-    println!("CustomSmartPointer dropped before the end of main.rs.");
+    println!("CustomSmartPointer dropped before the end of lib.");
 }
 ```
 
