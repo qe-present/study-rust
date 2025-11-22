@@ -1,0 +1,20 @@
+[package]
+name = "atomic"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crossbeam = "0.8"
+rand = "0.9.2"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "2_advanced"
+path = "src/2_advanced.rs"
+
+[[bin]]
+name = "3_lockfree"
+path = "src/3_lockfree.rs"
