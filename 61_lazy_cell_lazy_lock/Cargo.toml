@@ -1,0 +1,10 @@
+[package]
+name = "lazy_cell_lazy_lock"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name="lazy_cell_lazy_lock"
+
+[dependencies]
+crossbeam = "0.8"

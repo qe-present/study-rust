@@ -3,10 +3,12 @@ name = "once_cell_once_lock"
 version = "0.1.0"
 edition = "2024"
 
-
+[lib]
+name="once_cell_lock"
 
 
 
 [dependencies]
+crossbeam={version = "0.8"}
 
 
